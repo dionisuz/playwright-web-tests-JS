@@ -68,6 +68,11 @@ Then open the page at the server URL (e.g. `http://127.0.0.1:5500/clickMe.html`)
 
 ## Project structure
 - tests/ — Playwright spec files (hooksAndPage.spec.js, selectors.spec.js)
+- api_examples/ — API testing examples using Playwright's request context, includes:
+  - tests/ — API spec files (api_examples.spec.js)
+  - test-data/ — Static JSON data for response validation
+  - playwright-report/ — HTML reports for API tests
+  - test-results/ — API test run outputs
 - pom_example/ — Page Object Model example demonstrating best practices for test organization
 - package.json — scripts & dependencies
 - README.md — this file
