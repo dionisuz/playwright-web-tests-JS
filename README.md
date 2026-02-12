@@ -67,7 +67,8 @@ Then open the page at the server URL (e.g. `http://127.0.0.1:5500/clickMe.html`)
 - Geolocation is mocked by creating a new context with permissions and geolocation coordinates.
 
 ## Project structure
-- tests/ — Playwright spec files (hooksAndPage.spec.js)
+- tests/ — Playwright spec files (hooksAndPage.spec.js, selectors.spec.js)
+- pom_example/ — Page Object Model example demonstrating best practices for test organization
 - package.json — scripts & dependencies
 - README.md — this file
 
