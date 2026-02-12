@@ -1,0 +1,548 @@
+{
+  "config": {
+    "configFile": "/Users/dionisque/vs-proj/denys-qa-portfolio/playwright-web-tests-JS/playwright.config.js",
+    "rootDir": "/Users/dionisque/vs-proj/denys-qa-portfolio/playwright-web-tests-JS/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/dionisque/vs-proj/denys-qa-portfolio/playwright-web-tests-JS/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/dionisque/vs-proj/denys-qa-portfolio/playwright-web-tests-JS/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.2",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "assertions.spec.js",
+      "file": "assertions.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Learn assertions @assertions_group",
+          "file": "assertions.spec.js",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Verify web page behavior @smoke",
+              "ok": true,
+              "tags": [
+                "assertions_group",
+                "smoke"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3455,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-12T15:12:43.434Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4cf67306dc47f75b569a-67560c2a5a8d7b445f63",
+              "file": "assertions.spec.js",
+              "line": 5,
+              "column": 9
+            },
+            {
+              "title": "Continues with assertions",
+              "ok": true,
+              "tags": [
+                "assertions_group"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2472,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-12T15:12:48.719Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4cf67306dc47f75b569a-55c3cc1cee9fead6fa75",
+              "file": "assertions.spec.js",
+              "line": 15,
+              "column": 9
+            },
+            {
+              "title": "Continue with assertions part 2",
+              "ok": true,
+              "tags": [
+                "assertions_group"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3847,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-12T15:12:51.209Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4cf67306dc47f75b569a-1fb364b6d410570af6c1",
+              "file": "assertions.spec.js",
+              "line": 28,
+              "column": 9
+            },
+            {
+              "title": "Continue with assertions part 3",
+              "ok": true,
+              "tags": [
+                "assertions_group"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2569,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-12T15:12:55.077Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4cf67306dc47f75b569a-5cd93dad140349884700",
+              "file": "assertions.spec.js",
+              "line": 48,
+              "column": 9
+            },
+            {
+              "title": "Continue with assertions part 4",
+              "ok": true,
+              "tags": [
+                "assertions_group"
+              ],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2717,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-12T15:12:57.666Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4cf67306dc47f75b569a-a90e2ba6ec4c2535be9b",
+              "file": "assertions.spec.js",
+              "line": 61,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "codegen_login.spec.js",
+      "file": "codegen_login.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "This was generated by codegen",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3695,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-02-12T15:13:00.402Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "35743e1e24e4b1973c40-95cbc4c2be9891ed22f7",
+          "file": "codegen_login.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "hooksAndPage.spec.js",
+      "file": "hooksAndPage.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "describe block for hooks",
+          "file": "hooksAndPage.spec.js",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "A/B Test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 3117,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "BEFORE ALL HOOK LAUNCHED CHROMIUM BROWSER\n"
+                        },
+                        {
+                          "text": "BEFORE EACH LAUNCHED NEW PAGE\n"
+                        },
+                        {
+                          "text": "AFTER EACH HOOK CLOSED PAGE\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-12T15:13:04.122Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0031a1d1e346d8daaca2-ae491c04924c5cd04e37",
+              "file": "hooksAndPage.spec.js",
+              "line": 41,
+              "column": 9
+            },
+            {
+              "title": "Checkbox verification",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 2859,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "BEFORE EACH LAUNCHED NEW PAGE\n"
+                        },
+                        {
+                          "text": "AFTER EACH HOOK CLOSED PAGE\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-12T15:13:07.932Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0031a1d1e346d8daaca2-4c7f2d2722bfcc159a06",
+              "file": "hooksAndPage.spec.js",
+              "line": 49,
+              "column": 9
+            },
+            {
+              "title": "Geolocation setting in context and verification",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 4602,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "BEFORE EACH LAUNCHED NEW PAGE\n"
+                        },
+                        {
+                          "text": "USING CONTEXT AND PAGE CREATE WITHIN TEST AND NOT WITHIN HOOKS\n"
+                        },
+                        {
+                          "text": "AFTER EACH HOOK CLOSED PAGE\n"
+                        },
+                        {
+                          "text": "AFTER ALL HOOK CLOSED BROWSER\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-02-12T15:13:10.815Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0031a1d1e346d8daaca2-c6880783b0afcf4ef8b8",
+              "file": "hooksAndPage.spec.js",
+              "line": 55,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "login.spec.js",
+      "file": "login.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "This is a login test @smoke @regression",
+          "ok": true,
+          "tags": [
+            "smoke",
+            "regression"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3830,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-02-12T15:13:15.528Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "badc1754af1944f68b2b-3524ac0e91159138198c",
+          "file": "login.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "selectors.spec.js",
+      "file": "selectors.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Different selectors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 783,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-02-12T15:13:19.376Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "65090d1ebe65fa39cf9d-5760b5a81205b1b40b5b",
+          "file": "selectors.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-02-12T15:12:41.705Z",
+    "duration": 38561.982,
+    "expected": 11,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
