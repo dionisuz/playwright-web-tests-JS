@@ -1,6 +1,6 @@
 # Playwright Web Tests (JS) — Automation QA Portfolio
 
-Lightweight Playwright test suite demonstrating core web automation skills for an Automation QA portfolio: hooks, navigation, element checks, and context-level geolocation.
+Lightweight Playwright test suite demonstrating core web automation skills for an Automation QA portfolio: hooks, navigation, element checks, and context-level geolocation, Page Object Model POM, API request-response.
 
 ## Contents / Key Tests
 - Hooks and page lifecycle (beforeAll, beforeEach, afterEach, afterAll)
